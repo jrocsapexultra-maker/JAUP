@@ -1,0 +1,17 @@
+{
+  "name": "jaup",
+  "version": "1.0.0",
+  "description": "Full-stack cross-platform architecture",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "latest",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "latest"
+  },
+  "devDependencies": {}
+}
